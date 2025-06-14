@@ -1,0 +1,50 @@
+{
+  "tabelas": {
+    "endereco": {
+      "codigo_identificador_tabela": "b412421re412",
+      "colunas": {
+        "cep": "a01321301",
+        "rua" : "a002",
+        "numero": "a0203",
+        "bairro": "a0035",
+        "referencia": "a0108",
+        "zona": "a013221",
+        "regiao": "a0fd14",
+        "latitude": "a03232117",
+        "longitude": "a032118",
+        "observacao": "a0321320",
+        "uf" : "a007",
+        "cidade" : "a006"
+      },
+      "sinonimos": ["endereco", "endereço", "residência", "local"]
+      
+    },
+    "cliente": {
+      "codigo_identificador_tabela": "a323tre21",
+      "colunas": {
+        "nome": "a001",
+        "cpf": "a002",
+        "email": "a003",
+        "telefone": "a004",
+        "data_nascimento": "a005",
+        "sexo": "a006",
+        "estado_civil": "a007",
+        "profissao": "a008",
+        "empresa": "a009",
+        "cargo": "a010",
+        "renda_mensal": "a011",
+        "categoria": "a012",
+        "status": "a013",
+        "limite_credito": "a014",
+        "pontuacao": "a015",
+        "observacoes": "a016",
+        "origem_cadastro": "a017",
+        "data_criacao": "a018",
+        "data_atualizacao": "a019",
+        "quantidade_pedidos": "a020"
+      },
+     "sinonimos": ["pessoa", "cliente", "cadastro"]
+    }
+  }
+}
+
