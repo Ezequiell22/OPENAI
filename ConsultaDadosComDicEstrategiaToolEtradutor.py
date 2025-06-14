@@ -62,7 +62,6 @@ def consultar_dicionario(entrada: str) -> str:
     return "\n".join(resultados)
 
 
-# Define ferramentas disponíveis
 tools = [
     Tool(
         name="sql_db_query",
@@ -86,7 +85,6 @@ tools = [
 
 ]
 
-# Define LLM
 llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo")
 
 prompt_prefix = """
@@ -95,8 +93,6 @@ Sempre que for necessário responder perguntas com dados do banco, você deve us
 Use a ferramenta 'consultar_dicionario' se não souber qual tabela ou coluna utilizar.
 Não tente adivinhar nomes. Use sempre as ferramentas para consultar e executar.
 """
-
-
 
 agent_executor = initialize_agent(
     tools=tools,
